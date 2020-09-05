@@ -1,8 +1,7 @@
 on:
   pull_request:
-    branches-ignore:
-      - master
-
+    types: [assigned, opened, synchronize, reopened]
+    
 jobs:
   block_label:
     runs-on: ubuntu-latest
