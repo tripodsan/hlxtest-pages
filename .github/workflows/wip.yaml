@@ -9,4 +9,4 @@ jobs:
     steps:
       - uses: adobe-rnd/github-label-wip-action@master
         with:
-          label: breaking
+          label: [breaking, block]
